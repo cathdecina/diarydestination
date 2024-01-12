@@ -1,0 +1,240 @@
+body {
+  font-family: Cambria, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+header {
+  background-color: lightpink;
+  padding: 5px;
+   display: flex;
+  align-items: center;
+}
+
+.web-name {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+.logo {
+  width: 250px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer {
+    background-color:lightpink;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida fax, sans-serif;
+
+}
+
+h3{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida fax, sans-serif;
+}
+
+h4 {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+p {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: lucida fax, sans-serif;
+}
+
+
+
+#countries li {
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+main {
+    padding: 20px;
+}
+
+.spot {
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.spot img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#tourist-dest {    
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+#tourist-dest h3 a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+form {
+    margin-top: 20px;
+
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+abel {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+textarea {
+resize: vertical;
+min-height: 50px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+.paris  {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.southkorea{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.switzerland{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.japan{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.singapore{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
